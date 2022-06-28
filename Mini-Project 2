@@ -23,7 +23,7 @@ int main()
     printf("\n\t\tWELCOME!\n");               
     
     do{                            
-    printf("\n\tLibrary Management System\n\t=========================\n1. Add new book\t\t2. Search book\n3. Add new reader\t4. Search reader\n5. Issue book\t\t6. Submit book\n7. Delete book\t\t8. Delete reader\n9. List of books\t10. Exit\n\nEnter your choice: ");
+    printf("\n\tLibrary Management System\n\t\n1. Add new book\t\t2. Search book\n3. Add new reader\t4. Search reader\n5. Issue book\t\t6. Submit book\n7. Delete book\t\t8. Delete reader\n9. List of books\t10. Exit\n\nEnter your choice: ");
     scanf("%d", &choice);
 
     switch(choice){
